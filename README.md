@@ -22,7 +22,8 @@ python app.py
 ## Deploy on Render
 - Use **Build Command**: `pip install -r requirements.txt`
 - **Start Command**: `python app.py`
-- Add environment variable `PORT` (Render sets automatically).
+- Add environment variable `PORT` (Render sets automatically
+-Live Project: https://portfolio-of-almahmud.onrender.com
 
 ## Customize
 - Edit `data.json` to change info, skills, and projects.
