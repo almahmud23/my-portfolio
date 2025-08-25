@@ -1,0 +1,64 @@
+{
+  "name": "Md. Almahmud",
+  "title": "Software Developer • Python/Flask • React/Vue • ML",
+  "location": "Pabna, Bangladesh",
+  "email": "arbinariyan49@gmail.com",
+  "summary": "CSE graduate (CGPA 3.33) with hands-on experience building and deploying real-world applications. Strong in Python (intermediate), Flask, React, Vue, and ML (Scikit-learn, BERT).",
+  "skills_primary": [
+    "Python",
+    "Flask",
+    "React",
+    "Vue",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
+    "MySQL",
+    "Git/GitHub"
+  ],
+  "skills_learning": [
+    "Laravel",
+    "Django/Flask (advanced)",
+    "WordPress",
+    "BERT"
+  ],
+  "projects_featured": [
+    {
+      "name": "Toxic Comment Checker (BERT)",
+      "desc": "A BERT-based multi-label toxicity classifier with a Flask web interface. Deployed on Render.",
+      "github": "https://github.com/almahmud23/my-toxic-app",
+      "live": "https://toxicity-comment-checker.onrender.com",
+      "tags": [
+        "NLP",
+        "BERT",
+        "Flask",
+        "Deployment"
+      ]
+    },
+    {
+      "name": "Private University Application System (PUAS)",
+      "desc": "A centralized platform prototype for private university applications with user-friendly flows.",
+      "github": "",
+      "live": "",
+      "tags": [
+        "Flask",
+        "Full-stack",
+        "Prototype"
+      ]
+    },
+    {
+      "name": "Students Result App",
+      "desc": "Flask + HTML app for result calculation and verification.",
+      "github": "https://github.com/almahmud23/student-result-app",
+      "live": "",
+      "tags": [
+        "Flask",
+        "Education",
+        "Web"
+      ]
+    }
+  ],
+  "socials": {
+    "github": "https://github.com/almahmud23",
+    "linkedin": "https://www.linkedin.com/in/md-almahmud-b79534161/"
+  }
+}

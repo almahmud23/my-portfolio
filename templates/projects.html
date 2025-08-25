@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section-pad">
+  <div class="container">
+    <h3 class="section-title mb-4">Projects</h3>
+    <div class="row g-4">
+      {% for p in PROFILE.projects_featured %}
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="{{ loop.index0*50 }}">
+        <div class="project-card rounded-4 h-100">
+          <div class="project-card__content p-4">
+            <div class="d-flex align-items-center justify-content-between mb-2">
+              <h5 class="mb-0">{{ p.name }}</h5>
+              <div>
+                {% for t in p.tags %}
+                  <span class="badge bg-outline me-1">{{ t }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <p class="text-light-quiet">{{ p.desc }}</p>
+            <div class="d-flex gap-2 mt-2">
+              {% if p.live %}<a class="btn btn-primary btn-sm" target="_blank" href="{{ p.live }}">Live</a>{% endif %}
+              {% if p.github %}<a class="btn btn-outline-light btn-sm" target="_blank" href="{{ p.github }}">Code</a>{% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}
